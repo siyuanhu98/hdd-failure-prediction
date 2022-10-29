@@ -1,0 +1,8 @@
+usage: RandomForest.py [-h] --xpath XPATH --ypath YPATH --group GROUP
+RandomForest.py: error: the following arguments are required: --ypath, --group
+usage: RandomForest.py [-h] --xpath XPATH --ypath YPATH --group GROUP
+RandomForest.py: error: the following arguments are required: --ypath, --group
+usage: GBDT.py [-h] --xpath XPATH --ypath YPATH --group GROUP
+GBDT.py: error: argument --ypath: expected one argument
+usage: GBDT.py [-h] --xpath XPATH --ypath YPATH --group GROUP
+GBDT.py: error: argument --ypath: expected one argument
