@@ -1,0 +1,324 @@
+KFold = 5 :
+reading training and testing data...
+******************* GBDT ********************
+training took 3.967168s!
+******************* GBDT********************
+confusion_matrix:
+[[133  18]
+ [ 21 154]]
+accuracy_score: 
+0.8803680981595092
+precision_score: 
+0.8953488372093024
+recall_score: 
+0.88
+f1_score: 
+0.887608069164265
+MCC:  0.7598894128027681
+reading training and testing data...
+******************* GBDT ********************
+training took 3.876675s!
+******************* GBDT********************
+confusion_matrix:
+[[148  20]
+ [ 19 138]]
+accuracy_score: 
+0.88
+precision_score: 
+0.8734177215189873
+recall_score: 
+0.8789808917197452
+f1_score: 
+0.8761904761904762
+MCC:  0.7597892559041659
+reading training and testing data...
+******************* GBDT ********************
+training took 3.394228s!
+******************* GBDT********************
+confusion_matrix:
+[[146  18]
+ [ 20 141]]
+accuracy_score: 
+0.8830769230769231
+precision_score: 
+0.8867924528301887
+recall_score: 
+0.8757763975155279
+f1_score: 
+0.88125
+MCC:  0.7661653987947064
+reading training and testing data...
+******************* GBDT ********************
+training took 2.548187s!
+******************* GBDT********************
+confusion_matrix:
+[[142  20]
+ [ 14 149]]
+accuracy_score: 
+0.8953846153846153
+precision_score: 
+0.8816568047337278
+recall_score: 
+0.9141104294478528
+f1_score: 
+0.8975903614457832
+MCC:  0.7912831765310289
+reading training and testing data...
+******************* GBDT ********************
+training took 3.570113s!
+******************* GBDT********************
+confusion_matrix:
+[[152  18]
+ [ 18 137]]
+accuracy_score: 
+0.8892307692307693
+precision_score: 
+0.8838709677419355
+recall_score: 
+0.8838709677419355
+f1_score: 
+0.8838709677419355
+MCC:  0.777988614800759
+KFold = 5 :
+reading training and testing data...
+******************* GBDT ********************
+training took 12.105946s!
+******************* GBDT********************
+confusion_matrix:
+[[306  16]
+ [ 19 147]]
+accuracy_score: 
+0.9282786885245902
+precision_score: 
+0.901840490797546
+recall_score: 
+0.8855421686746988
+f1_score: 
+0.8936170212765958
+MCC:  0.8396074069341695
+reading training and testing data...
+******************* GBDT ********************
+training took 7.660018s!
+******************* GBDT********************
+confusion_matrix:
+[[318  22]
+ [ 14 134]]
+accuracy_score: 
+0.9262295081967213
+precision_score: 
+0.8589743589743589
+recall_score: 
+0.9054054054054054
+f1_score: 
+0.881578947368421
+MCC:  0.8286664885205677
+reading training and testing data...
+******************* GBDT ********************
+training took 4.871679s!
+******************* GBDT********************
+confusion_matrix:
+[[308  30]
+ [ 13 137]]
+accuracy_score: 
+0.9118852459016393
+precision_score: 
+0.8203592814371258
+recall_score: 
+0.9133333333333333
+f1_score: 
+0.8643533123028392
+MCC:  0.8019067788805668
+reading training and testing data...
+******************* GBDT ********************
+training took 6.155734s!
+******************* GBDT********************
+confusion_matrix:
+[[305  22]
+ [ 17 144]]
+accuracy_score: 
+0.9200819672131147
+precision_score: 
+0.8674698795180723
+recall_score: 
+0.8944099378881988
+f1_score: 
+0.8807339449541285
+MCC:  0.8208796208759319
+reading training and testing data...
+******************* GBDT ********************
+training took 6.333783s!
+******************* GBDT********************
+confusion_matrix:
+[[304  24]
+ [ 22 137]]
+accuracy_score: 
+0.9055441478439425
+precision_score: 
+0.8509316770186336
+recall_score: 
+0.8616352201257862
+f1_score: 
+0.85625
+MCC:  0.7859517475296727
+KFold = 5 :
+reading training and testing data...
+******************* GBDT ********************
+training took 9.981580s!
+******************* GBDT********************
+confusion_matrix:
+[[781  61]
+ [ 15 119]]
+accuracy_score: 
+0.9221311475409836
+precision_score: 
+0.6611111111111111
+recall_score: 
+0.8880597014925373
+f1_score: 
+0.7579617834394904
+MCC:  0.7237688294746515
+reading training and testing data...
+******************* GBDT ********************
+training took 14.763100s!
+******************* GBDT********************
+confusion_matrix:
+[[803  45]
+ [ 11 117]]
+accuracy_score: 
+0.9426229508196722
+precision_score: 
+0.7222222222222222
+recall_score: 
+0.9140625
+f1_score: 
+0.8068965517241379
+MCC:  0.7811502358535091
+reading training and testing data...
+******************* GBDT ********************
+training took 19.386424s!
+******************* GBDT********************
+confusion_matrix:
+[[781  48]
+ [ 31 116]]
+accuracy_score: 
+0.9190573770491803
+precision_score: 
+0.7073170731707317
+recall_score: 
+0.7891156462585034
+f1_score: 
+0.7459807073954984
+MCC:  0.6994888963030623
+reading training and testing data...
+******************* GBDT ********************
+training took 16.858740s!
+******************* GBDT********************
+confusion_matrix:
+[[797  44]
+ [ 19 115]]
+accuracy_score: 
+0.9353846153846154
+precision_score: 
+0.7232704402515723
+recall_score: 
+0.8582089552238806
+f1_score: 
+0.7849829351535836
+MCC:  0.751073911397795
+reading training and testing data...
+******************* GBDT ********************
+training took 19.128290s!
+******************* GBDT********************
+confusion_matrix:
+[[809  44]
+ [ 18 104]]
+accuracy_score: 
+0.9364102564102564
+precision_score: 
+0.7027027027027027
+recall_score: 
+0.8524590163934426
+f1_score: 
+0.7703703703703704
+MCC:  0.738475848852267
+KFold = 5 :
+reading training and testing data...
+******************* GBDT ********************
+training took 32.648830s!
+******************* GBDT********************
+confusion_matrix:
+[[1606   64]
+ [  22   97]]
+accuracy_score: 
+0.9519284516489659
+precision_score: 
+0.6024844720496895
+recall_score: 
+0.8151260504201681
+f1_score: 
+0.692857142857143
+MCC:  0.6763979813099915
+reading training and testing data...
+******************* GBDT ********************
+training took 36.510304s!
+******************* GBDT********************
+confusion_matrix:
+[[1612   62]
+ [  25   90]]
+accuracy_score: 
+0.951369480156512
+precision_score: 
+0.5921052631578947
+recall_score: 
+0.782608695652174
+f1_score: 
+0.6741573033707866
+MCC:  0.655797722621705
+reading training and testing data...
+******************* GBDT ********************
+training took 33.865186s!
+******************* GBDT********************
+confusion_matrix:
+[[1596   67]
+ [  21  105]]
+accuracy_score: 
+0.9508105086640581
+precision_score: 
+0.6104651162790697
+recall_score: 
+0.8333333333333334
+f1_score: 
+0.7046979865771813
+MCC:  0.688350813312382
+reading training and testing data...
+******************* GBDT ********************
+training took 36.935107s!
+******************* GBDT********************
+confusion_matrix:
+[[1601   55]
+ [  26  106]]
+accuracy_score: 
+0.9546979865771812
+precision_score: 
+0.6583850931677019
+recall_score: 
+0.803030303030303
+f1_score: 
+0.7235494880546075
+MCC:  0.7032315288604214
+reading training and testing data...
+******************* GBDT ********************
+training took 21.282449s!
+******************* GBDT********************
+confusion_matrix:
+[[1601   70]
+ [  20   97]]
+accuracy_score: 
+0.9496644295302014
+precision_score: 
+0.5808383233532934
+recall_score: 
+0.8290598290598291
+f1_score: 
+0.6830985915492958
+MCC:  0.6689586213154531

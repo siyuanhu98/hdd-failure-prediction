@@ -1,0 +1,568 @@
+Using TensorFlow backend.
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+KFold = 5 :
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:74: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3976: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3376: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+2022-05-29 10:18:44.225503: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2022-05-29 10:18:44.230569: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2500005000 Hz
+2022-05-29 10:18:44.230895: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555dbf3ff810 executing computations on platform Host. Devices:
+2022-05-29 10:18:44.230920: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+******************* CNNLSTM********************
+confusion_matrix:
+[[113  54]
+ [ 41 118]]
+accuracy_score: 
+0.7085889570552147
+precision_score: 
+0.686046511627907
+recall_score: 
+0.7421383647798742
+f1_score: 
+0.7129909365558912
+MCC:  0.4192985935351271
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+******************* CNNLSTM********************
+confusion_matrix:
+[[106  37]
+ [ 61 121]]
+accuracy_score: 
+0.6984615384615385
+precision_score: 
+0.7658227848101266
+recall_score: 
+0.6648351648351648
+f1_score: 
+0.711764705882353
+MCC:  0.4033141007122605
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+******************* CNNLSTM********************
+confusion_matrix:
+[[104  37]
+ [ 62 122]]
+accuracy_score: 
+0.6953846153846154
+precision_score: 
+0.7672955974842768
+recall_score: 
+0.6630434782608695
+f1_score: 
+0.7113702623906706
+MCC:  0.39720219378040206
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+******************* CNNLSTM********************
+confusion_matrix:
+[[116  58]
+ [ 40 111]]
+accuracy_score: 
+0.6984615384615385
+precision_score: 
+0.6568047337278107
+recall_score: 
+0.7350993377483444
+f1_score: 
+0.69375
+MCC:  0.40107965460954326
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+******************* CNNLSTM********************
+confusion_matrix:
+[[123  59]
+ [ 47  96]]
+accuracy_score: 
+0.6738461538461539
+precision_score: 
+0.6193548387096774
+recall_score: 
+0.6713286713286714
+f1_score: 
+0.6442953020134228
+MCC:  0.34501194732364293
+Using TensorFlow backend.
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+KFold = 5 :
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:74: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3976: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3376: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+2022-05-29 10:25:00.931722: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2022-05-29 10:25:00.937176: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2500005000 Hz
+2022-05-29 10:25:00.937499: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x562fb5392df0 executing computations on platform Host. Devices:
+2022-05-29 10:25:00.937527: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+******************* CNNLSTM********************
+confusion_matrix:
+[[242  67]
+ [ 83  96]]
+accuracy_score: 
+0.6926229508196722
+precision_score: 
+0.588957055214724
+recall_score: 
+0.5363128491620112
+f1_score: 
+0.5614035087719299
+MCC:  0.32645241744303616
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+******************* CNNLSTM********************
+confusion_matrix:
+[[275  57]
+ [ 57  99]]
+accuracy_score: 
+0.7663934426229508
+precision_score: 
+0.6346153846153846
+recall_score: 
+0.6346153846153846
+f1_score: 
+0.6346153846153846
+MCC:  0.4629286376274328
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+******************* CNNLSTM********************
+confusion_matrix:
+[[276  73]
+ [ 45  94]]
+accuracy_score: 
+0.7581967213114754
+precision_score: 
+0.562874251497006
+recall_score: 
+0.6762589928057554
+f1_score: 
+0.6143790849673203
+MCC:  0.444334335311973
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+******************* CNNLSTM********************
+confusion_matrix:
+[[257  68]
+ [ 65  98]]
+accuracy_score: 
+0.7274590163934426
+precision_score: 
+0.5903614457831325
+recall_score: 
+0.6012269938650306
+f1_score: 
+0.5957446808510639
+MCC:  0.39024323856025256
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+******************* CNNLSTM********************
+confusion_matrix:
+[[271  57]
+ [ 55 104]]
+accuracy_score: 
+0.7700205338809035
+precision_score: 
+0.6459627329192547
+recall_score: 
+0.6540880503144654
+f1_score: 
+0.65
+MCC:  0.47877688044432803
+Using TensorFlow backend.
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+KFold = 5 :
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:74: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3976: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3376: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+2022-05-29 10:30:23.626728: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2022-05-29 10:30:23.631887: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2500005000 Hz
+2022-05-29 10:30:23.632208: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x56524e93f0b0 executing computations on platform Host. Devices:
+2022-05-29 10:30:23.632238: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+******************* CNNLSTM********************
+confusion_matrix:
+[[796 180]
+ [  0   0]]
+accuracy_score: 
+0.8155737704918032
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+******************* CNNLSTM********************
+confusion_matrix:
+[[814 162]
+ [  0   0]]
+accuracy_score: 
+0.8340163934426229
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+******************* CNNLSTM********************
+confusion_matrix:
+[[812 164]
+ [  0   0]]
+accuracy_score: 
+0.8319672131147541
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+******************* CNNLSTM********************
+confusion_matrix:
+[[816 159]
+ [  0   0]]
+accuracy_score: 
+0.8369230769230769
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+******************* CNNLSTM********************
+confusion_matrix:
+[[827 148]
+ [  0   0]]
+accuracy_score: 
+0.8482051282051282
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+Using TensorFlow backend.
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+KFold = 5 :
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:74: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3976: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3376: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+WARNING:tensorflow:From /home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+2022-05-29 10:42:40.360089: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2022-05-29 10:42:40.365421: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2500005000 Hz
+2022-05-29 10:42:40.365746: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55af3ef458e0 executing computations on platform Host. Devices:
+2022-05-29 10:42:40.365771: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+******************* CNNLSTM********************
+confusion_matrix:
+[[1628  161]
+ [   0    0]]
+accuracy_score: 
+0.9100055897149245
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+******************* CNNLSTM********************
+confusion_matrix:
+[[1637  152]
+ [   0    0]]
+accuracy_score: 
+0.9150363331470095
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+******************* CNNLSTM********************
+confusion_matrix:
+[[1617  172]
+ [   0    0]]
+accuracy_score: 
+0.9038569032979318
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+******************* CNNLSTM********************
+confusion_matrix:
+[[1627  161]
+ [   0    0]]
+accuracy_score: 
+0.9099552572706935
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+CNNLSTM.py:31: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(128, 4, padding="same")`
+  model.add(TimeDistributed(Convolution1D(128, 4, border_mode='same'), input_shape=train_X.shape[1:]))
+CNNLSTM.py:44: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(train_X, train_y,batch_size=batch_size, nb_epoch=nb_epoch, verbose=0, validation_data=(test_X, test_y))
+******************* CNNLSTM********************
+confusion_matrix:
+[[1621  167]
+ [   0    0]]
+accuracy_score: 
+0.906599552572707
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan

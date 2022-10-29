@@ -1,0 +1,304 @@
+KFold = 5 :
+reading training and testing data...
+training took 4.212159s!
+******************* LightGBM********************
+confusion_matrix:
+[[146  15]
+ [  8 157]]
+accuracy_score: 
+0.9294478527607362
+precision_score: 
+0.9127906976744186
+recall_score: 
+0.9515151515151515
+f1_score: 
+0.9317507418397627
+MCC:  0.859594142319928
+reading training and testing data...
+training took 2.690132s!
+******************* LightGBM********************
+confusion_matrix:
+[[156  11]
+ [ 11 147]]
+accuracy_score: 
+0.9323076923076923
+precision_score: 
+0.930379746835443
+recall_score: 
+0.930379746835443
+f1_score: 
+0.930379746835443
+MCC:  0.8645114833623891
+reading training and testing data...
+training took 3.092572s!
+******************* LightGBM********************
+confusion_matrix:
+[[151  14]
+ [ 15 145]]
+accuracy_score: 
+0.9107692307692308
+precision_score: 
+0.9119496855345912
+recall_score: 
+0.90625
+f1_score: 
+0.9090909090909092
+MCC:  0.8214948721462079
+reading training and testing data...
+training took 2.978451s!
+******************* LightGBM********************
+confusion_matrix:
+[[146  18]
+ [ 10 151]]
+accuracy_score: 
+0.9138461538461539
+precision_score: 
+0.893491124260355
+recall_score: 
+0.937888198757764
+f1_score: 
+0.9151515151515152
+MCC:  0.828760092567234
+reading training and testing data...
+training took 3.598364s!
+******************* LightGBM********************
+confusion_matrix:
+[[158  17]
+ [ 12 138]]
+accuracy_score: 
+0.9107692307692308
+precision_score: 
+0.8903225806451613
+recall_score: 
+0.92
+f1_score: 
+0.9049180327868852
+MCC:  0.8212942598834051
+KFold = 5 :
+reading training and testing data...
+training took 42.915633s!
+******************* LightGBM********************
+confusion_matrix:
+[[309  18]
+ [ 16 145]]
+accuracy_score: 
+0.930327868852459
+precision_score: 
+0.8895705521472392
+recall_score: 
+0.9006211180124224
+f1_score: 
+0.8950617283950617
+MCC:  0.8429534501048547
+reading training and testing data...
+training took 13.664669s!
+******************* LightGBM********************
+confusion_matrix:
+[[326  18]
+ [  6 138]]
+accuracy_score: 
+0.9508196721311475
+precision_score: 
+0.8846153846153846
+recall_score: 
+0.9583333333333334
+f1_score: 
+0.9199999999999999
+MCC:  0.8860557329389455
+reading training and testing data...
+training took 3.101826s!
+******************* LightGBM********************
+confusion_matrix:
+[[311  16]
+ [ 10 151]]
+accuracy_score: 
+0.9467213114754098
+precision_score: 
+0.9041916167664671
+recall_score: 
+0.937888198757764
+f1_score: 
+0.9207317073170732
+MCC:  0.8809627930990971
+reading training and testing data...
+training took 3.753502s!
+******************* LightGBM********************
+confusion_matrix:
+[[313  20]
+ [  9 146]]
+accuracy_score: 
+0.9405737704918032
+precision_score: 
+0.8795180722891566
+recall_score: 
+0.9419354838709677
+f1_score: 
+0.9096573208722741
+MCC:  0.866589107235651
+reading training and testing data...
+training took 3.842136s!
+******************* LightGBM********************
+confusion_matrix:
+[[313  14]
+ [ 13 147]]
+accuracy_score: 
+0.944558521560575
+precision_score: 
+0.9130434782608695
+recall_score: 
+0.91875
+f1_score: 
+0.9158878504672897
+MCC:  0.874550264012993
+KFold = 5 :
+reading training and testing data...
+training took 59.191193s!
+******************* LightGBM********************
+confusion_matrix:
+[[787  37]
+ [  9 143]]
+accuracy_score: 
+0.9528688524590164
+precision_score: 
+0.7944444444444444
+recall_score: 
+0.9407894736842105
+f1_score: 
+0.8614457831325301
+MCC:  0.837617293651186
+reading training and testing data...
+training took 37.970827s!
+******************* LightGBM********************
+confusion_matrix:
+[[800  20]
+ [ 14 142]]
+accuracy_score: 
+0.9651639344262295
+precision_score: 
+0.8765432098765432
+recall_score: 
+0.9102564102564102
+f1_score: 
+0.8930817610062893
+MCC:  0.8725044100437478
+reading training and testing data...
+training took 31.762591s!
+******************* LightGBM********************
+confusion_matrix:
+[[805  28]
+ [  7 136]]
+accuracy_score: 
+0.9641393442622951
+precision_score: 
+0.8292682926829268
+recall_score: 
+0.951048951048951
+f1_score: 
+0.8859934853420195
+MCC:  0.8676930613190921
+reading training and testing data...
+training took 16.386187s!
+******************* LightGBM********************
+confusion_matrix:
+[[807  30]
+ [  9 129]]
+accuracy_score: 
+0.96
+precision_score: 
+0.8113207547169812
+recall_score: 
+0.9347826086956522
+f1_score: 
+0.8686868686868686
+MCC:  0.8481828527837045
+reading training and testing data...
+training took 5.080355s!
+******************* LightGBM********************
+confusion_matrix:
+[[814  31]
+ [ 13 117]]
+accuracy_score: 
+0.9548717948717949
+precision_score: 
+0.7905405405405406
+recall_score: 
+0.9
+f1_score: 
+0.8417266187050358
+MCC:  0.8178713693876318
+KFold = 5 :
+reading training and testing data...
+training took 72.570473s!
+******************* LightGBM********************
+confusion_matrix:
+[[1618   38]
+ [  10  123]]
+accuracy_score: 
+0.9731693683622136
+precision_score: 
+0.7639751552795031
+recall_score: 
+0.924812030075188
+f1_score: 
+0.836734693877551
+MCC:  0.8267181327851039
+reading training and testing data...
+training took 64.113519s!
+******************* LightGBM********************
+confusion_matrix:
+[[1628   30]
+ [   9  122]]
+accuracy_score: 
+0.9782001117942984
+precision_score: 
+0.8026315789473685
+recall_score: 
+0.9312977099236641
+f1_score: 
+0.862190812720848
+MCC:  0.8531971615743529
+reading training and testing data...
+training took 59.576205s!
+******************* LightGBM********************
+confusion_matrix:
+[[1601   41]
+ [  16  131]]
+accuracy_score: 
+0.9681386249301286
+precision_score: 
+0.7616279069767442
+recall_score: 
+0.891156462585034
+f1_score: 
+0.8213166144200628
+MCC:  0.8069332819115461
+reading training and testing data...
+training took 5.559528s!
+******************* LightGBM********************
+confusion_matrix:
+[[1617   39]
+ [  10  122]]
+accuracy_score: 
+0.9725950782997763
+precision_score: 
+0.7577639751552795
+recall_score: 
+0.9242424242424242
+f1_score: 
+0.8327645051194539
+MCC:  0.8227854021260025
+reading training and testing data...
+training took 5.480902s!
+******************* LightGBM********************
+confusion_matrix:
+[[1613   42]
+ [   8  125]]
+accuracy_score: 
+0.9720357941834452
+precision_score: 
+0.7485029940119761
+recall_score: 
+0.9398496240601504
+f1_score: 
+0.8333333333333334
+MCC:  0.8246040809082658

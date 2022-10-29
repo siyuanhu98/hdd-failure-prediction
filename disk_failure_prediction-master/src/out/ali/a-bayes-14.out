@@ -1,0 +1,291 @@
+KFold = 5 :
+reading training and testing data...
+******************* BAYES ********************
+training took 0.007888s!
+******************* BAYES********************
+confusion_matrix:
+[[1628  161]
+ [   0    0]]
+accuracy_score: 
+0.9100055897149245
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+reading training and testing data...
+******************* BAYES ********************
+training took 0.007331s!
+******************* BAYES********************
+confusion_matrix:
+[[1637  152]
+ [   0    0]]
+accuracy_score: 
+0.9150363331470095
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+reading training and testing data...
+******************* BAYES ********************
+training took 0.007687s!
+******************* BAYES********************
+confusion_matrix:
+[[1617  172]
+ [   0    0]]
+accuracy_score: 
+0.9038569032979318
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+reading training and testing data...
+******************* BAYES ********************
+training took 0.007517s!
+******************* BAYES********************
+confusion_matrix:
+[[  12    7]
+ [1615  154]]
+accuracy_score: 
+0.09284116331096197
+precision_score: 
+0.9565217391304348
+recall_score: 
+0.08705483323911814
+f1_score: 
+0.15958549222797927
+MCC:  -0.10078733402546326
+reading training and testing data...
+******************* BAYES ********************
+training took 0.007041s!
+******************* BAYES********************
+confusion_matrix:
+[[1621  167]
+ [   0    0]]
+accuracy_score: 
+0.906599552572707
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+KFold = 5 :
+reading training and testing data...
+******************* BAYES ********************
+training took 0.004181s!
+******************* BAYES********************
+confusion_matrix:
+[[325 163]
+ [  0   0]]
+accuracy_score: 
+0.6659836065573771
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+reading training and testing data...
+******************* BAYES ********************
+training took 0.002938s!
+******************* BAYES********************
+confusion_matrix:
+[[332 156]
+ [  0   0]]
+accuracy_score: 
+0.680327868852459
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+reading training and testing data...
+******************* BAYES ********************
+training took 0.002973s!
+******************* BAYES********************
+confusion_matrix:
+[[321 167]
+ [  0   0]]
+accuracy_score: 
+0.6577868852459017
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+reading training and testing data...
+******************* BAYES ********************
+training took 0.002835s!
+******************* BAYES********************
+confusion_matrix:
+[[322 158]
+ [  0   8]]
+accuracy_score: 
+0.6762295081967213
+precision_score: 
+0.04819277108433735
+recall_score: 
+1.0
+f1_score: 
+0.09195402298850576
+MCC:  0.17980355188114697
+reading training and testing data...
+******************* BAYES ********************
+training took 0.002782s!
+******************* BAYES********************
+confusion_matrix:
+[[326 161]
+ [  0   0]]
+accuracy_score: 
+0.6694045174537988
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+KFold = 5 :
+reading training and testing data...
+******************* BAYES ********************
+training took 0.004798s!
+******************* BAYES********************
+confusion_matrix:
+[[325 163]
+ [  0   0]]
+accuracy_score: 
+0.6659836065573771
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+reading training and testing data...
+******************* BAYES ********************
+training took 0.003364s!
+******************* BAYES********************
+confusion_matrix:
+[[332 156]
+ [  0   0]]
+accuracy_score: 
+0.680327868852459
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+reading training and testing data...
+******************* BAYES ********************
+training took 0.003394s!
+******************* BAYES********************
+confusion_matrix:
+[[321 167]
+ [  0   0]]
+accuracy_score: 
+0.6577868852459017
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan
+reading training and testing data...
+******************* BAYES ********************
+training took 0.003240s!
+******************* BAYES********************
+confusion_matrix:
+[[322 158]
+ [  0   8]]
+accuracy_score: 
+0.6762295081967213
+precision_score: 
+0.04819277108433735
+recall_score: 
+1.0
+f1_score: 
+0.09195402298850576
+MCC:  0.17980355188114697
+reading training and testing data...
+******************* BAYES ********************
+training took 0.003231s!
+******************* BAYES********************
+confusion_matrix:
+[[326 161]
+ [  0   0]]
+accuracy_score: 
+0.6694045174537988
+precision_score: 
+0.0
+recall_score: 
+/home/hsy/anaconda3/envs/tf1/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+0.0
+f1_score: 
+0.0
+/home/hsy/hsyb/disk_failure_prediction-master/src/utils/evaluation.py:20: RuntimeWarning: invalid value encountered in true_divide
+  MCC = (TP * TN - FP * FN) / np.sqrt(hh)
+MCC:  nan

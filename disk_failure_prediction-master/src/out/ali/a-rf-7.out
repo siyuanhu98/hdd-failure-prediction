@@ -1,0 +1,304 @@
+KFold = 5 :
+reading training and testing data...
+training took 26.115005s!
+******************* RandomForest********************
+confusion_matrix:
+[[138  20]
+ [ 16 152]]
+accuracy_score: 
+0.8895705521472392
+precision_score: 
+0.8837209302325582
+recall_score: 
+0.9047619047619048
+f1_score: 
+0.8941176470588236
+MCC:  0.7790017919896357
+reading training and testing data...
+training took 23.774701s!
+******************* RandomForest********************
+confusion_matrix:
+[[148  16]
+ [ 19 142]]
+accuracy_score: 
+0.8923076923076924
+precision_score: 
+0.8987341772151899
+recall_score: 
+0.8819875776397516
+f1_score: 
+0.8902821316614421
+MCC:  0.7846941164622155
+reading training and testing data...
+training took 22.672539s!
+******************* RandomForest********************
+confusion_matrix:
+[[149  14]
+ [ 17 145]]
+accuracy_score: 
+0.9046153846153846
+precision_score: 
+0.9119496855345912
+recall_score: 
+0.8950617283950617
+f1_score: 
+0.9034267912772587
+MCC:  0.8093560815088522
+reading training and testing data...
+training took 26.204943s!
+******************* RandomForest********************
+confusion_matrix:
+[[142  19]
+ [ 14 150]]
+accuracy_score: 
+0.8984615384615384
+precision_score: 
+0.8875739644970414
+recall_score: 
+0.9146341463414634
+f1_score: 
+0.9009009009009008
+MCC:  0.7972258203173511
+reading training and testing data...
+training took 21.658391s!
+******************* RandomForest********************
+confusion_matrix:
+[[153  17]
+ [ 17 138]]
+accuracy_score: 
+0.8953846153846153
+precision_score: 
+0.8903225806451613
+recall_score: 
+0.8903225806451613
+f1_score: 
+0.8903225806451613
+MCC:  0.7903225806451613
+KFold = 5 :
+reading training and testing data...
+training took 34.145078s!
+******************* RandomForest********************
+confusion_matrix:
+[[305  17]
+ [ 20 146]]
+accuracy_score: 
+0.9241803278688525
+precision_score: 
+0.8957055214723927
+recall_score: 
+0.8795180722891566
+f1_score: 
+0.8875379939209727
+MCC:  0.830436709620416
+reading training and testing data...
+training took 31.845737s!
+******************* RandomForest********************
+confusion_matrix:
+[[318  14]
+ [ 14 142]]
+accuracy_score: 
+0.9426229508196722
+precision_score: 
+0.9102564102564102
+recall_score: 
+0.9102564102564102
+f1_score: 
+0.9102564102564102
+MCC:  0.8680877355576151
+reading training and testing data...
+training took 23.738157s!
+******************* RandomForest********************
+confusion_matrix:
+[[309  20]
+ [ 12 147]]
+accuracy_score: 
+0.9344262295081968
+precision_score: 
+0.8802395209580839
+recall_score: 
+0.9245283018867925
+f1_score: 
+0.9018404907975461
+MCC:  0.8532333070174003
+reading training and testing data...
+training took 29.148241s!
+******************* RandomForest********************
+confusion_matrix:
+[[311  18]
+ [ 11 148]]
+accuracy_score: 
+0.9405737704918032
+precision_score: 
+0.891566265060241
+recall_score: 
+0.9308176100628931
+f1_score: 
+0.9107692307692308
+MCC:  0.866705128193901
+reading training and testing data...
+training took 31.550400s!
+******************* RandomForest********************
+confusion_matrix:
+[[314  22]
+ [ 12 139]]
+accuracy_score: 
+0.9301848049281314
+precision_score: 
+0.8633540372670807
+recall_score: 
+0.9205298013245033
+f1_score: 
+0.891025641025641
+MCC:  0.8406780721311755
+KFold = 5 :
+reading training and testing data...
+training took 71.159002s!
+******************* RandomForest********************
+confusion_matrix:
+[[785  62]
+ [ 11 118]]
+accuracy_score: 
+0.9252049180327869
+precision_score: 
+0.6555555555555556
+recall_score: 
+0.9147286821705426
+f1_score: 
+0.7637540453074434
+MCC:  0.7348740984778506
+reading training and testing data...
+training took 75.341305s!
+******************* RandomForest********************
+confusion_matrix:
+[[802  44]
+ [ 12 118]]
+accuracy_score: 
+0.9426229508196722
+precision_score: 
+0.7283950617283951
+recall_score: 
+0.9076923076923077
+f1_score: 
+0.8082191780821918
+MCC:  0.7814478064306359
+reading training and testing data...
+training took 84.143349s!
+******************* RandomForest********************
+confusion_matrix:
+[[799  39]
+ [ 13 125]]
+accuracy_score: 
+0.9467213114754098
+precision_score: 
+0.7621951219512195
+recall_score: 
+0.9057971014492754
+f1_score: 
+0.8278145695364238
+MCC:  0.8007280780907124
+reading training and testing data...
+training took 88.998803s!
+******************* RandomForest********************
+confusion_matrix:
+[[802  38]
+ [ 14 121]]
+accuracy_score: 
+0.9466666666666667
+precision_score: 
+0.7610062893081762
+recall_score: 
+0.8962962962962963
+f1_score: 
+0.8231292517006802
+MCC:  0.7956501459994509
+reading training and testing data...
+training took 51.668626s!
+******************* RandomForest********************
+confusion_matrix:
+[[816  36]
+ [ 11 112]]
+accuracy_score: 
+0.9517948717948718
+precision_score: 
+0.7567567567567568
+recall_score: 
+0.9105691056910569
+f1_score: 
+0.8265682656826568
+MCC:  0.8034638407414315
+KFold = 5 :
+reading training and testing data...
+training took 162.642457s!
+******************* RandomForest********************
+confusion_matrix:
+[[1621   60]
+ [   7  101]]
+accuracy_score: 
+0.9625489100055897
+precision_score: 
+0.6273291925465838
+recall_score: 
+0.9351851851851852
+f1_score: 
+0.7509293680297398
+MCC:  0.7486054274523481
+reading training and testing data...
+training took 162.392307s!
+******************* RandomForest********************
+confusion_matrix:
+[[1627   59]
+ [  10   93]]
+accuracy_score: 
+0.961430967020682
+precision_score: 
+0.6118421052631579
+recall_score: 
+0.9029126213592233
+f1_score: 
+0.7294117647058823
+MCC:  0.7250704996948012
+reading training and testing data...
+training took 160.095499s!
+******************* RandomForest********************
+confusion_matrix:
+[[1610   69]
+ [   7  103]]
+accuracy_score: 
+0.9575181665735047
+precision_score: 
+0.5988372093023255
+recall_score: 
+0.9363636363636364
+f1_score: 
+0.7304964539007093
+MCC:  0.7295505606994197
+reading training and testing data...
+training took 160.166509s!
+******************* RandomForest********************
+confusion_matrix:
+[[1618   55]
+ [   9  106]]
+accuracy_score: 
+0.9642058165548099
+precision_score: 
+0.6583850931677019
+recall_score: 
+0.9217391304347826
+f1_score: 
+0.7681159420289854
+MCC:  0.7617729033685269
+reading training and testing data...
+training took 153.710572s!
+******************* RandomForest********************
+confusion_matrix:
+[[1609   68]
+ [  12   99]]
+accuracy_score: 
+0.9552572706935123
+precision_score: 
+0.592814371257485
+recall_score: 
+0.8918918918918919
+f1_score: 
+0.712230215827338
+MCC:  0.7059647178237146
